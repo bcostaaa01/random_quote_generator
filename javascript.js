@@ -9,6 +9,7 @@ var quotes = [
 "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code. – Dan Salomon"
 ]
 
+function newNumber = { // newNumber function to generate the quotes and display them on index.html
 
 // Math.floor() with Math.random() passes as a parameter
 
@@ -17,3 +18,5 @@ var randomNumber = Math.floor(Math.random() * (quotes.length));
 // Placing the quote into the HTML quoteDisplay element
 
 document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+
+}
